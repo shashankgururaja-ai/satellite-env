@@ -1,0 +1,10 @@
+name: aerospace_satellite_manager
+description: Manage a satellite's power and data storage in orbit, balancing data transmission against critical battery failure.
+version: "1.0.0"
+tasks:
+  - id: task_1_easy_survival
+    description: "Easy: Survive 1 full orbit (10 steps) without the battery reaching 0%."
+  - id: task_2_medium_transmission
+    description: "Medium: Survive 2 orbits and successfully transmit at least 50MB of data."
+  - id: task_3_hard_maximization
+    description: "Hard: Survive 3 orbits and maximize data transmission under severe power constraints."
