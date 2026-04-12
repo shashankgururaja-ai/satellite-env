@@ -1,8 +1,7 @@
 import os
 import json
 from openai import OpenAI
-from openenv_core import EnvClient
-
+from openenv_core.client import EnvClient
 def run_inference():
     # 1. Enforce Mandatory Environment Variables
     # Use 7860 because that is where we moved the server!
